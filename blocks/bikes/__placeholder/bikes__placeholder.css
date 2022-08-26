@@ -7,3 +7,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .bikes__placeholder {
+    height: 328px;
+  }
+}

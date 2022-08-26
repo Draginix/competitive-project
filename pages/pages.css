@@ -64,6 +64,7 @@
 @import url(../blocks/bikes/__selects/bikes__selects.css);
 @import url(../blocks/bikes/__select-item/bikes__select-item.css);
 @import url(../blocks/bikes/__placeholder/bikes__placeholder.css);
+@import url(../blocks/bikes/__swipe/bikes__swipe.css);
 
 /* TRAINING */
 @import url(../blocks/training/training.css);
