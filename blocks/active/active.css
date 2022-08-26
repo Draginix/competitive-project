@@ -1,0 +1,11 @@
+.bikes__tabs-item.active {
+    opacity: 1;
+}
+
+.bikes__tabs-content {
+    display: none;
+}
+
+.bikes__tabs-content.active {
+    display: grid;
+}

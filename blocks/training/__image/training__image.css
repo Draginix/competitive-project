@@ -1,0 +1,15 @@
+.training__image {
+    max-width: 100%; 
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+}
+
+@media screen and (max-width: 1029px) {
+    .training__image {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+    }
+}
+

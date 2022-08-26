@@ -1,0 +1,19 @@
+.bikes__name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151515;
+    margin: 22px 0 0;
+}
+
+@media screen and (max-width: 1029px) {
+    .bikes__name {
+        font-size: 14px;
+        line-height: 18px;
+        position: relative;
+        bottom: 65px;
+        text-align-last: center;
+    }
+  }

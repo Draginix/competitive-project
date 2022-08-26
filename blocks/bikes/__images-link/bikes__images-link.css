@@ -1,0 +1,16 @@
+.bikes__images-link {
+    width: 380px;
+    min-height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 380px) {
+    .bikes__images-link {
+      max-width: 284px;
+      min-height: 308px;
+    }
+}

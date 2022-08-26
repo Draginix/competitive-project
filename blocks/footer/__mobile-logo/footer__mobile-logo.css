@@ -1,0 +1,17 @@
+.footer__mobile-logo {
+    display: none;
+    background-image: url(../../../images/logo__COLOR_main-1.png);
+    width: 38px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 630px) {
+	.footer__mobile-logo {
+		display: block;
+        position: absolute;
+        bottom: 16px;
+        right: 0;
+	}
+}

@@ -1,0 +1,18 @@
+.bikes__tabs-content {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 30px;
+    display: grid;
+    z-index: 1;
+    justify-items: center;
+}
+
+.bikes__tabs-content {
+    display: none;
+}
+
+
+@media screen and (max-width: 630px) {
+    .bikes__tabs-content {
+        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    }
+}

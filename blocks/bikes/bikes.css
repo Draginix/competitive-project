@@ -1,0 +1,12 @@
+.bikes {
+    width: calc(100% - 2*120px);
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 630px) {
+	.bikes {
+		width: calc(100% - 2*18px);
+        padding-bottom: 64px;
+	}
+}

@@ -1,0 +1,13 @@
+.footer__subscribe {
+    width: calc(100% - 2*120px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 630px) {
+	.footer__subscribe {
+		margin: 0;
+        
+	}
+}

@@ -1,0 +1,16 @@
+.bikes__tabs {
+    display: flex;
+    align-items: end;
+}
+
+@media screen and (max-width: 1029px) {
+    .bikes__tabs {
+      padding: 53px 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .bikes__tabs {
+    display: none;
+  }
+}

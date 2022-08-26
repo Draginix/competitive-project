@@ -1,0 +1,19 @@
+.training {
+    width: calc(100% - 2*120px);
+    margin: 0 auto;
+    padding: 150px 0 120px 0;
+}
+
+@media screen and (max-width: 1029px) {
+	.training {
+        padding: 105px 0 60px 0;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.training {
+		width: calc(100% - 2*18px);
+        padding: 40px 0 60px 0;
+	}
+}
+

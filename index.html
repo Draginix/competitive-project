@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/pages.css">
+    <link rel="stylesheet" href="./vendor/fonts/inter.css">
+</head>
+<body class="page">
+    <main class="content">
+      <section class="bikes">
+        <div class="bikes__top">
+          <h2 class="section-title">Велосипеды</h2>
+          <nav class="bikes__tabs">
+            <tab class="bikes__tabs-item active" type="button" data-tab="#tab_1">Шоссе</tab>
+            <tab class="bikes__tabs-item" type="button" data-tab="#tab_2">Грэвел</tab>
+            <tab class="bikes__tabs-item" type="button" data-tab="#tab_3">тт</tab>
+          </nav>
+          <select class="bikes__select">
+            <option value="Шоссе">Шоссе</option>
+            <option value="Грэвел">Грэвел</option>
+            <option value="ТТ">ТТ</option>
+          </select>
+        </div>
+        <div class="bikes__tabs-body">
+          <article class="bikes__tabs-content active" id="tab_1">
+            <div class="bikes__placeholder">
+              <a href="#" class="bikes__images-link">
+                <img class="bikes__photo" src="./images/Cervelo Caledionia.png">
+              </a>
+              <p class="bikes__name">Cervelo Caledonia-5</p>
+            </div>
+            <div class="bikes__placeholder">
+              <a href="#" class="bikes__images-link">
+                <img class="bikes__photo" src="./images/Cannondale Systemsix Himod.png">
+              </a>
+              <p class="bikes__name">Cannondale Systemsix Himod</p>
+            </div>
+            <div class="bikes__placeholder">
+              <a href="#" class="bikes__images-link">
+                <img class="bikes__photo" src="./images/trek domane.png">
+              </a>
+              <p class="bikes__name">Trek Domane SL-7</p>
+            </div>
+          </article>
+          <article class="bikes__tabs-content" id="tab_2">
+            <div class="bikes__placeholder">
+              <a href="#" class="bikes__images-link">
+                <img class="bikes__photo" src="./images/Cervelo Aspero.png">
+              </a>
+              <p class="bikes__name">Cervelo Aspero GRX 810</p>
+            </div>
+            <div class="bikes__tabs_placeholder">
+              <a href="#" class="bikes__images-link">
+                <img class="bikes__photo" src="./images/Specialized S-works.png">
+              </a>
+              <p class="bikes__name">Specialized S-Works Diverge</p>
+            </div>
+            <div class="bikes__tabs_placeholder">
+              <a href="#" class="bikes__images-link">
+                <img class="bikes__photo" src="./images/Cannondale Topstone.png">
+              </a>
+              <p class="bikes__name">Cannondale Topstone Lefty 3</p>
+            </div>
+          </article>
+          <article class="bikes__tabs-content" id="tab_3">
+            <div class="bikes__tabs_placeholder">
+              <a href="#" class="bikes__images-link">
+                <img class="bikes__photo" src="./images/Specialized S-works shiv.png">
+              </a>
+              <p class="bikes__name">Specialized S-Works Shiv</p>
+            </div>
+            <div class="bikes__tabs_placeholder">
+              <a href="#" class="bikes__images-link">
+                <img class="bikes__photo" src="./images/BMC Timemachine.png">
+              </a>
+              <p class="bikes__name">BMC Timemachine 01 ONE</p>
+            </div>
+            <div class="bikes__tabs_placeholder">
+              <a href="#" class="bikes__images-link">
+                <img class="bikes__photo" src="./images/Carvelo P-series.png">
+              </a>
+              <p class="bikes__name">Cervelo P-Series</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="training">
+        <div class="training__wrapper">
+          <h2 class="section-title">Тренировки</h2>
+          <img class="training__image" src="./images/training image.png">
+          <p class="section-subtitle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+          <div class="training__links">
+            <a href="#" class="training__link">Strava</a>
+            <a href="#" class="training__link">Komoot</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <form class="footer__subscribe">
+        <label class="footer__subscribe-label" for="subscribe-input">Подпишитесь на рассылку —</label>
+        <input class="footer__subscribe-input" type="text" name="email" placeholder="Ваш e-mail">
+        <p class="footer__copyright">© Road Club 2021</p>
+        <div class="footer__mobile-logo"></div>
+      </form>
+    </footer>
+<script src="./script.js"></script>
+<script src="./jquery.js"></script>
+</body>
+</html>

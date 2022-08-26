@@ -1,0 +1,11 @@
+.bikes__photo {
+    width: 340px;
+    height: 340px;
+}
+
+@media screen and (max-width: 380px) {
+    .bikes__photo {
+      height: 254px;
+      width: 254px;
+    }
+}

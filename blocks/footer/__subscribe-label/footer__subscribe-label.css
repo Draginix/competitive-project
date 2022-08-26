@@ -1,0 +1,10 @@
+.footer__subscribe-label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #151515;
+    margin:0;
+    width: 229px;
+}

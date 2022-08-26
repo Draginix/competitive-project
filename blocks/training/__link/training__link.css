@@ -1,0 +1,18 @@
+.training__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #151515;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+}
+
+.training__link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.training__link:hover {
+    opacity: 0.75;
+}  
