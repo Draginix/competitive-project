@@ -57,7 +57,6 @@
 @import url(../blocks/bikes/__tabs/bikes__tabs.css);
 @import url(../blocks/bikes/__tabs-item/bikes__tabs-item.css);
 @import url(../blocks/bikes/__tabs-content/bikes__tabs-content.css);
-@import url(../blocks/bikes/__tabs-body/bikes__tabs-body.css);
 @import url(../blocks/bikes/__photo/bikes__photo.css);
 @import url(../blocks/bikes/__images-link/bikes__images-link.css);
 @import url(../blocks/bikes/__name/bikes__name.css);
@@ -71,7 +70,6 @@
 @import url(../blocks/training/__image/training__image.css);
 @import url(../blocks/training/__link/training__link.css);
 @import url(../blocks/training/__links/training__links.css);
-@import url(../blocks/training/__wrapper/training__wrapper.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
