@@ -1,0 +1,15 @@
+.bikes__swipe {
+    background-image: url(../../../images/bikes\ elipse.svg);
+    display: none;
+    width: 22px;
+    height: 4px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+}
+    
+@media screen and (max-width: 767px) {
+    .bikes__swipe {
+        display: block;
+    }
+}
