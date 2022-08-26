@@ -13,6 +13,5 @@
 @media screen and (max-width: 767px) {
   .training__image {
     object-fit: contain;
-    align-self: center;
   }
 }

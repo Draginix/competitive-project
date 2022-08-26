@@ -1,4 +1,5 @@
 .training__links {
   grid-area: links;
   align-self: end;
+  max-width: 100%;
 }
