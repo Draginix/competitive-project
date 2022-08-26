@@ -1,5 +1,4 @@
 .section-title {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: calc(32px + 23 * ((100vw - 320px)/(1440 - 320)));
