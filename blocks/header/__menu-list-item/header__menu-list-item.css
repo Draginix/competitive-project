@@ -1,0 +1,7 @@
+.header__menu-list-item {
+  
+}
+
+.header__menu-list-item:not(:first-of-type) {
+  margin-left: 34px;
+}

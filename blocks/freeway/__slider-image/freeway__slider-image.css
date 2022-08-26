@@ -1,0 +1,15 @@
+.freeway__slider-image {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .freeway__slider-image:last-of-type {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .freeway__slider-image {
+    min-width: 100%;
+  }
+}

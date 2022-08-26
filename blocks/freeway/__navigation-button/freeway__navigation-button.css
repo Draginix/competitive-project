@@ -1,0 +1,23 @@
+.freeway__navigation-button {
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  background-color: #EBEBEB;
+  transition: opacity 0.2s linear;
+}
+
+.freeway__navigation-button:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 767px) {
+  .freeway__navigation-button {
+    min-height: 24px;
+    min-width: 24px;
+    background-size: 6px;
+  }
+
+  .freeway__navigation-button:first-of-type {
+    margin-right: 10px;
+  }
+}

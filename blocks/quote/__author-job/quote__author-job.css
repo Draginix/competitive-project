@@ -1,0 +1,14 @@
+.quote__author-job {
+  font-weight: 400;
+  font-size: calc(10px + 6 * ((100vw - 320px)/(1440 - 320)));
+  line-height: 1.75;
+  color: #222222;
+  opacity: 0.7;
+  margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .quote__author-job {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,14 @@
+.freeway__navigation {
+  display: flex;
+  justify-content: space-between;
+  max-width: 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .freeway__navigation {
+    order: 0;
+    position: absolute;
+    top: 45px;
+    right: 0;
+  }
+}

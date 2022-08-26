@@ -1,0 +1,20 @@
+.freeway {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0 60px 120px;
+}
+
+@media screen and (max-width: 1300px) {
+  .freeway {
+    padding-right: 120px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .freeway {
+    padding: 40px 0;
+    margin: 40px 18px 0;
+    border-top: 1px solid #E3E3E3;
+  }
+}

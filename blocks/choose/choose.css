@@ -1,0 +1,12 @@
+.choose {
+  position: relative;
+  padding: 80px 120px;
+  min-height: calc(856px - (80px*2));
+}
+
+@media screen and (max-width: 767px) {
+  .choose {
+    padding: 40px 16px;
+    min-height: calc(508px - (40px*2));
+  }
+}

@@ -1,0 +1,15 @@
+.quote__author-name {
+  font-weight: 500;
+  font-size: calc(14px + 6 * ((100vw - 320px)/(1440 - 320)));
+  line-height: 1.6;
+  color: #151515;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+@media screen and (min-width: 1440px) {
+  .quote__author-name {
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+}

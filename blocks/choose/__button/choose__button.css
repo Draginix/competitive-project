@@ -1,0 +1,45 @@
+@keyframes progress {
+  0% {
+    background-image: linear-gradient(to right, #319E75 0%, #319E75 20%, #24B47E 20%);
+  }
+  20% {
+    background-image: linear-gradient(to right, #319E75 40%, #24B47E 40%, #24B47E 100%);
+  }
+  40% {
+    background-image: linear-gradient(to right, #319E75 60%, #24B47E 60%, #24B47E 100%);
+  }
+  40% {
+    background-image: linear-gradient(to right, #319E75 80%, #24B47E 80%, #24B47E 100%);
+  }
+  100% {
+    background-image: linear-gradient(to right, #319E75 0%, #319E75 100%);
+  }
+}
+
+.choose__button {
+  position: relative;
+  display: block;
+  max-width: 160px;
+  margin-top: 50px;
+  padding: 16px 10px;
+  background-color: #24B47E;
+  font-weight: 600;
+  font-size: calc(13px + 1 * ((100vw - 320px)/(1440 - 320)));
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.choose__button:hover {
+  animation: progress 0.3s ease-out forwards;
+}
+
+@media screen and (max-width: 560px) {
+  .choose__button {
+    margin-top: 40px;
+    max-width: 100%;
+  }
+}
