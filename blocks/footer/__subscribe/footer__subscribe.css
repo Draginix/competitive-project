@@ -8,6 +8,7 @@
 @media screen and (max-width: 630px) {
 	.footer__subscribe {
 		margin: 0;
-        
+        width: calc(100% - 2*18px);
+        margin: 0 18px 0 18px;
 	}
 }
