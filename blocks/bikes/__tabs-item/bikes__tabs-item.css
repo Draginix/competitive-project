@@ -10,6 +10,8 @@
     cursor: pointer;
     z-index: 5;
     opacity: 0.7;
+    border: none;
+    background-color: #F4F4F4;
 }
 
 .bikes__tabs-item:not(:last-child) {
