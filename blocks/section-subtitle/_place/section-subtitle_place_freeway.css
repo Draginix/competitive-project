@@ -1,3 +1,7 @@
+.section-subtitle_place_freeway {
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 767px) {
   .section-subtitle_place_freeway {
     order: 4;

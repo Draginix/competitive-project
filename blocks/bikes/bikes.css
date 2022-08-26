@@ -4,9 +4,9 @@
     padding-bottom: 60px;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 767px) {
 	.bikes {
 		width: calc(100% - 2*18px);
-        padding-bottom: 64px;
+        padding-bottom: 40px;
 	}
 }

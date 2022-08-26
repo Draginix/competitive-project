@@ -1,15 +1,4 @@
 .training__links {
-    margin-top: 182px;
-}
-
-@media screen and (max-width: 1280px) {
-    .training__links {
-        margin-top: 80;
-    }
-}
-
-@media screen and (max-width: 1029px) {
-    .training__links {
-        margin: 0;
-    }
+  grid-area: links;
+  align-self: end;
 }
