@@ -1,5 +1,16 @@
-@media screen and (max-width: 1029px) {
-    .section-subtitle_place_training {
-        margin: 0;
-    }
+.section-subtitle_place_training {
+  grid-area: subtitle;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .section-subtitle_place_training {
+    width: 300px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-subtitle_place_training {
+    min-width: 100%;
+  }
 }
