@@ -10,7 +10,6 @@
     display: none;
 }
 
-
 @media screen and (max-width: 767px) {
     .bikes__tabs-content {
         grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
