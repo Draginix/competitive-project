@@ -1,19 +1,29 @@
 .training {
-    width: calc(100% - 2*120px);
-    margin: 0 auto;
-    padding: 150px 0 120px 0;
+  display: grid;
+  column-gap: 160px;
+  row-gap: 50px;
+  grid-template-areas: "title image"
+                       "subtitle image"
+                       ". image"
+                       "links image";
+  padding: 150px 120px 120px;
 }
 
-@media screen and (max-width: 1029px) {
-	.training {
-        padding: 105px 0 60px 0;
-	}
+@media screen and (max-width: 1280px) {
+  .training {
+    column-gap: 40px;
+  }
 }
 
-@media screen and (max-width: 630px) {
-	.training {
-		width: calc(100% - 2*18px);
-        padding: 40px 0 60px 0;
-	}
+@media screen and (max-width: 767px) {
+  .training {
+    grid-template-areas: "title"
+                         "image"
+                         "subtitle"
+                         "links";
+    row-gap: 40px;
+    padding: 40px 0 60px;
+    margin: 0 18px;
+    border-top: 1px solid #E3E3E3;
+  }
 }
-

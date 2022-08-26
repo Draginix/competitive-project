@@ -1,15 +1,18 @@
 .training__image {
-    max-width: 100%; 
-    grid-row-start: 1;
-    grid-row-end: 4;
-    grid-column-start: 2;
+  width: 100%;
+  grid-area: image;
 }
 
-@media screen and (max-width: 1029px) {
-    .training__image {
-        grid-row-start: 2;
-        grid-row-end: 2;
-        grid-column-start: 1;
-    }
+@media screen and (max-width: 1280px) {
+  .training__image {
+    align-self: stretch;
+    object-fit: cover;
+  }
 }
 
+@media screen and (max-width: 767px) {
+  .training__image {
+    object-fit: contain;
+    align-self: center;
+  }
+}

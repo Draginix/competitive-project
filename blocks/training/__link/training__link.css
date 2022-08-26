@@ -1,17 +1,23 @@
 .training__link {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    color: #151515;
-    text-decoration: none;
-    transition: .5s ease-in-out;
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(14px + 4 * ((100vw - 320px)/(1440 - 320)));
+  line-height: 28px;
+  color: #151515;
+  text-decoration: none;
+  transition: .5s ease-in-out;
 }
 
 .training__link:not(:last-child) {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .training__link:hover {
-    opacity: 0.75;
-}  
+  opacity: 0.75;
+}
+
+@media screen and (min-width: 1440px) {
+  .training__link {
+    font-size: 18px;
+  }
+}
