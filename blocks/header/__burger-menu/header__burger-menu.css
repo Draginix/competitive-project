@@ -1,5 +1,6 @@
 .header__burger-menu {
   border: 0;
+  background-color: inherit;
   background-image: url('../../../images/header__burger-menu.svg');
   background-repeat: no-repeat;
   width: 22px;
