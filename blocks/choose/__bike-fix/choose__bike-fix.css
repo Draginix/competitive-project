@@ -1,0 +1,23 @@
+.choose__bike-fix {
+  max-width: 440px;
+  position: sticky;
+  top: 412px;
+  z-index: 1;
+  border-radius: 20px;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, .2);
+              /*2px 2px 5px rgba(0, 0, 0, .2);*/
+  margin-bottom: 104px;
+}
+
+@media screen and (max-width: 1179px) {
+  .choose__bike-fix {
+    max-width: 390px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .choose__bike-fix {
+    max-width: 234px;
+    margin-bottom: 37px;
+  }
+}

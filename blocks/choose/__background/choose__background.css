@@ -1,0 +1,26 @@
+.choose__background {
+  position: absolute;
+  width: 42.36%;
+  height: 97.66%;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  background-image: url('../../../images/choose__background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+  .choose__background {
+    width: 254px;
+    height: 348px;
+    top: 160px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .choose__background {
+    right: 18px
+  }
+}

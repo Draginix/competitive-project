@@ -1,0 +1,20 @@
+.choose__link {
+  display: inline-block;
+  margin: 167px 30px 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  color: #151515;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.choose__link:hover {
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 767px) {
+  .choose__link {
+    display: none;
+  }
+}

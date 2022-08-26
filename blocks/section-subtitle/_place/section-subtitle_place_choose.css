@@ -1,0 +1,18 @@
+@media screen and (max-width: 1179px) {
+  .section-subtitle_place_choose {
+    max-width: 284px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-subtitle_place_choose {
+    max-width: calc(100% - 300px);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .section-subtitle_place_choose {
+    padding-top: calc(428px - 50px);
+    min-width: 100%;
+  }
+}

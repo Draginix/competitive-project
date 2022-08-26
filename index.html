@@ -1,19 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./pages/pages.css">
-    <link rel="stylesheet" href="./vendor/fonts/inter.css">
+    <title>Velobike</title>
+    <link rel="stylesheet" type="text/css" href="./pages/pages.css">
 </head>
 <body class="page">
+    <header class="header">
+    <button class="header__burger-menu"></button>
+    <nav class="header__menu">
+      <ul class="header__menu-list">
+        <li class="header__menu-list-item"><a class="header__link" href="#">Покрытия и градиенты</a></li>
+        <li class="header__menu-list-item"><a class="header__link" href="#">Велосипеды</a></li>
+        <li class="header__menu-list-item"><a class="header__link" href="#">Тренировки</a></li>
+      </ul>
+    </nav>
+  </header>
     <main class="content">
+      <section class="choose">
+      <div class="choose__bike-fix-wrapper"><img class="choose__bike-fix" src="./images/bike-fix.jpg" alt="Изображение велосипеда"></div>
+      <h1 class="section-title section-title_place_choose">Шоссе, ТТ и&nbsp;Грэвел</h1>
+      <p class="section-subtitle section-subtitle_place_choose">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+      <a class="choose__button" href="#">Подробнее</a>
+      <a class="choose__link" href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J" target="_blank">Cannondale Systemsix</a>
+      <div class="choose__line"></div>
+      <div class="choose__background"></div>
+    </section>
+    <section class="quote">
+      <img class="quote__image" src="./images/quote__image.jpg" alt="Велосипедист в горах">
+      <div class="quote__content">
+        <blockquote class="quote__text">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</blockquote>
+        <div class="quote__author">
+          <p class="quote__author-name">Эдди Меркс</p>
+          <p class="quote__author-job">Велогонщик</p>
+        </div>
+      </div>
+    </section>
+    <section class="freeway">
+      <h2 class="section-title">Шоссе</h2>
+      <p class="section-subtitle section-subtitle_place_freeway">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+      <div class="freeway__slider">
+        <img class="freeway__slider-image" src="./images/freeway__slider-image-1.jpg" alt="Шоссе">
+        <img class="freeway__slider-image" src="./images/freeway__slider-image-2.jpg" alt="Гревел">
+      </div>
+      <div class="freeway__navigation">
+        <div class="freeway__navigation-button freeway__navigation-button_way_left"></div>
+        <div class="freeway__navigation-button freeway__navigation-button_way_right"></div>
+      </div>
+    </section>
       <section class="bikes">
         <div class="bikes__top">
-          <h2 class="section-title">Велосипеды</h2>
+          <h2 class="section-title section-title_place_bikes">Велосипеды</h2>
           <nav class="bikes__tabs">
             <tab class="bikes__tabs-item active" type="button" data-tab="#tab_1">Шоссе</tab>
             <tab class="bikes__tabs-item" type="button" data-tab="#tab_2">Грэвел</tab>
@@ -90,9 +129,9 @@
       </section>
       <section class="training">
         <div class="training__wrapper">
-          <h2 class="section-title">Тренировки</h2>
+          <h2 class="section-title section-title_place_training">Тренировки</h2>
           <img class="training__image" src="./images/training image.png">
-          <p class="section-subtitle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+          <p class="section-subtitle section-subtitle_place_training">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
           <div class="training__links">
             <a href="#" class="training__link">Strava</a>
             <a href="#" class="training__link">Komoot</a>

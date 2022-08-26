@@ -1,0 +1,19 @@
+.choose__bike-fix-wrapper {
+  position: absolute;
+  top: 0;
+  left: 43.75%;
+  width: calc(100% - 630px);
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .choose__bike-fix-wrapper {
+    max-height: 508px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .choose__bike-fix-wrapper {
+    left: 18px;
+  }
+}

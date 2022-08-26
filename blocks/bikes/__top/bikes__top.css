@@ -13,6 +13,13 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .bikes__top {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .bikes__top {
     align-items: flex-start;

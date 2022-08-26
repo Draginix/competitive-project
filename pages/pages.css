@@ -1,9 +1,55 @@
-@import url(../blocks/active/active.css);
-@import url(../blocks/content/content.css);
-@import url(../blocks/page/page.css);
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../blocks/active/active.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/section-title/_place/section-title_place_choose.css');
+@import url('../blocks/section-title/_place/section-title_place_bikes.css');
+@import url('../blocks/section-title/_place/section-title_place_training.css');
+@import url('../blocks/section-subtitle/section-subtitle.css');
+@import url('../blocks/section-subtitle/_place/section-subtitle_place_choose.css');
+@import url('../blocks/section-subtitle/_place/section-subtitle_place_freeway.css');
+@import url('../blocks/section-subtitle/_place/section-subtitle_place_training.css');
 
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-subtitle/section-subtitle.css);
+/* HEADER */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__burger-menu/header__burger-menu.css');
+@import url('../blocks/header/__menu/header__menu.css');
+@import url('../blocks/header/__menu-list/header__menu-list.css');
+@import url('../blocks/header/__menu-list-item/header__menu-list-item.css');
+@import url('../blocks/header/__link/header__link.css');
+
+/* CHOOSE */
+@import url('../blocks/choose/choose.css');
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/section-subtitle/section-subtitle.css');
+@import url('../blocks/section-subtitle/_place/section-subtitle_place_choose.css');
+@import url('../blocks/section-subtitle/_place/section-subtitle_place_freeway.css');
+@import url('../blocks/choose/__button/choose__button.css');
+@import url('../blocks/choose/__link/choose__link.css');
+@import url('../blocks/choose/__line/choose__line.css');
+@import url('../blocks/choose/__background/choose__background.css');
+@import url('../blocks/choose/__bike-fix-wrapper/choose__bike-fix-wrapper.css');
+@import url('../blocks/choose/__bike-fix/choose__bike-fix.css');
+
+/* QUOTE */
+@import url('../blocks/quote/quote.css');
+@import url('../blocks/quote/__image/quote__image.css');
+@import url('../blocks/quote/__text/quote__text.css');
+@import url('../blocks/quote/__content/quote__content.css');
+@import url('../blocks/quote/__author/quote__author.css');
+@import url('../blocks/quote/__author-name/quote__author-name.css');
+@import url('../blocks/quote/__author-job/quote__author-job.css');
+
+/* FREEWAY */
+@import url('../blocks/freeway/freeway.css');
+@import url('../blocks/freeway/__slider/freeway__slider.css');
+@import url('../blocks/freeway/__slider-image/freeway__slider-image.css');
+@import url('../blocks/freeway/__navigation/freeway__navigation.css');
+@import url('../blocks/freeway/__navigation-button/freeway__navigation-button.css');
+@import url('../blocks/freeway/__navigation-button/_way/freeway__navigation-button_way_left.css');
+@import url('../blocks/freeway/__navigation-button/_way/freeway__navigation-button_way_right.css');
 
 /* BIKES */
 @import url(../blocks/bikes/bikes.css);

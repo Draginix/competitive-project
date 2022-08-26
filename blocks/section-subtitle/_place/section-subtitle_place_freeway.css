@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  .section-subtitle_place_freeway {
+    order: 4;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-subtitle_place_freeway {
+    margin: 0;
+  }
+}

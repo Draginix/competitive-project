@@ -1,0 +1,11 @@
+.quote__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .quote__content {
+    row-gap: 40px;
+  }
+}

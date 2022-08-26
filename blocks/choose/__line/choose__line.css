@@ -1,0 +1,15 @@
+.choose__line {
+  display: inline-block;
+  min-width: 132px;
+  height: 2px;
+  padding: 2px 0;
+  background-image: url('../../../images/choose__line.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 767px) {
+  .choose__line {
+    display: none;
+  }
+}
