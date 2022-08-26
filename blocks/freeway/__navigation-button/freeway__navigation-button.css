@@ -4,6 +4,7 @@
   border-radius: 50%;
   background-color: #EBEBEB;
   transition: opacity 0.2s linear;
+  cursor: pointer;
 }
 
 .freeway__navigation-button:hover {
