@@ -1,23 +1,27 @@
 .bikes__tabs-item {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: right;
-    color: #222222;
-    text-decoration: none;
-    cursor: pointer;
-    z-index: 5;
-    opacity: 0.7;
-    border: none;
-    background-color: inherit;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: right;
+  color: #222222;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 5;
+  opacity: 0.7;
+  border: none;
+  background-color: inherit;
 }
 
 .bikes__tabs-item:not(:last-child) {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .bikes__tabs-item:last-child {
-    text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+.bikes__tabs-item:hover {
+  opacity: 0.8;
 }
