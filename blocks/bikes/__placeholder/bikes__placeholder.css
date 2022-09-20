@@ -1,5 +1,16 @@
 .bikes__placeholder {
   margin: 0;
+  transition: transform .2s linear;
+}
+
+.bikes__placeholder:hover {
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 767px) {
+  .bikes__placeholder:hover {
+    transform: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
