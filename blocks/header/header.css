@@ -1,5 +1,11 @@
 .header {
   padding: 28px 120px;
+  max-width: 100%;
+  position: sticky;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  background-color: #F4F4F4;;
 }
 
 @media screen and (max-width: 767px) {
@@ -7,5 +13,8 @@
     padding: 26px 18px 29px;
     display: flex;
     justify-content: flex-end;
+    width: 20px;
+    border-radius: 0 0 0 20px;
+    margin-left: auto;
   }
 }
