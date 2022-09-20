@@ -10,3 +10,7 @@
 .header__link:hover {
   opacity: 0.75;
 }
+
+.header__link:active {
+  opacity: 0.5;
+}
