@@ -10,19 +10,19 @@ function onTabClick(item) {
         let tabId = currentBtn.getAttribute("data-tab");
         let currentTab = document.querySelector(tabId);
 
-        if( ! currentBtn.classList.contains('active') ) {
+        if( ! currentBtn.classList.contains('bikes__tabs-item_active') ) {
             tabsBtn.forEach(function(item) {
-                item.classList.remove('active');
-            });
-        
-            tabsItems.forEach(function(item) {
-                item.classList.remove('active');
+                item.classList.remove('bikes__tabs-item_active');
             });
 
-            currentBtn.classList.add('active');
-            currentTab.classList.add('active');
+            tabsItems.forEach(function(item) {
+                item.classList.remove('bikes__tabs-content_active');
+            });
+
+            currentBtn.classList.add('bikes__tabs-item_active');
+            currentTab.classList.add('bikes__tabs-content_active');
         }
     });
 }
 
-document.querySelector('bikes_tabs_nav-btn').click();
+// document.querySelector('bikes_tabs_nav-btn').click();
