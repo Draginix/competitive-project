@@ -22,8 +22,10 @@
 
 .choose__button:hover {
   background-size: 100% 100%;
-  background-position: 0% 50%;
+}
 
+.choose__button:active{
+  opacity: .9;
 }
 
 @media screen and (max-width: 560px) {
